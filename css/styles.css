@@ -1,4 +1,8 @@
 /*MAIN SECTIONS*/
+html {
+    /*PERMANENT SCROLLBAR TO STOP SHIFTING*/
+    overflow-y:scroll;
+}
 body {
     margin: 0% 15% 0% 15%;
     background-color: white;
@@ -29,14 +33,20 @@ footer {
 .copyright {
     float:right;
 }
+/*PAGES*/
+.aboutme{
+    margin-left: 10%;
+    margin-right: 10%;}
 .statement{
-  text-align: justify;  
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .contactme{
     text-align:center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
-
 /*HEADINGS*/
 h1 {
     font-size: 1.5em;
@@ -67,8 +77,7 @@ nav {
 }    
 .topmenu{
     padding-left: 0%;
-    /*add this for center menu*/
-    /*text-align: center;*/
+    text-align: center;
 }
 /*for the links themselves not the nav bar*/
 .mainnav {
@@ -80,39 +89,7 @@ nav {
     list-style-type: none;
     padding-left: 0%;
 }
-/*uncomment for a background color over whole block*/
-/*.mainnav:hover {
-    background-color: black;
-}*/
 
-/*DROPDOWNS*/
-.artworks-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:gainsboro;
-    padding: 1%;
-    text-align: left;
-    list-style-type: none;
-    margin-top:10px;
-}
-.artworks-dropdown:hover .artworks-dropdown-content{
-    display:block;
-    z-index: 1;
-}
-.ongoing-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:gainsboro;
-    padding: 1%;
-    text-align: left;
-    list-style-type: none;
-    margin-top: 10px;
-    width:150px;
-}
-.ongoing-dropdown:hover .ongoing-dropdown-content{
-    display:block;
-    z-index: 1;
-}
 
 /*LINKS*/
 a:link  {
@@ -136,10 +113,7 @@ a:active {
 
 
 /*IMAGE GALLERY*/
-.homepage{text-align: center;}
-.homeimage{
-    width: 850px;
-}
+.homepage{text-align: justify;}
 .image{width:225px;
     display: inline-block;
     margin: 5px;
@@ -156,5 +130,26 @@ a:active {
 }
 
 
-
+/*CHANGES FOR SCREENS*/
+@media only screen and (max-width: 500px) {
+    .statement {
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: left;
+    }
+    .aboutme {
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: left;
+    }
+    .contactme {
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: left;
+    }
+    .socialicons{
+        text-align: center;
+    }
+    .copyright{float:left;}
+}
 
