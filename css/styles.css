@@ -1,0 +1,160 @@
+/*MAIN SECTIONS*/
+body {
+    margin: 0% 15% 0% 15%;
+    background-color: white;
+    font-family: "Courier New","Lucida Console",Arial;
+    /*font-size: 16px;*/
+    color: black;
+        }
+header {
+    background-color: white;
+    padding: .5% 2% .5% 2%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+        }
+main {
+    background-color: white;
+    padding: 2%;
+    margin-bottom: 15px;
+    height:auto;
+    overflow-x:hidden;
+    overflow-y:auto;
+        }
+footer {
+    background-color: white;
+    padding: 2%;
+    margin-bottom: 15px;
+}
+.copyright {
+    float:right;
+}
+.statement{
+  text-align: justify;  
+}
+.contactme{
+    text-align:center;
+}
+
+
+/*HEADINGS*/
+h1 {
+    font-size: 1.5em;
+        }
+.main-title {
+    margin-bottom: 0%;
+}
+.subline {
+    margin-top: 0%
+}
+h2 {
+    font-size: 1.3em;
+    text-align: center;
+    }
+h3 {
+    font-size: 1.1em;
+        }
+p {
+    font-size: 1em;
+        }
+
+/*NAVIGATION*/
+nav {
+    background-color:white;
+    padding: 0%;
+    margin-bottom: 15px;
+    text-align: center;
+}    
+.topmenu{
+    padding-left: 0%;
+    /*add this for center menu*/
+    /*text-align: center;*/
+}
+/*for the links themselves not the nav bar*/
+.mainnav {
+   padding: 10px 25px;
+   text-align: center; 
+   display: inline-block;    
+}
+.in-page-list{
+    list-style-type: none;
+    padding-left: 0%;
+}
+/*uncomment for a background color over whole block*/
+/*.mainnav:hover {
+    background-color: black;
+}*/
+
+/*DROPDOWNS*/
+.artworks-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:gainsboro;
+    padding: 1%;
+    text-align: left;
+    list-style-type: none;
+    margin-top:10px;
+}
+.artworks-dropdown:hover .artworks-dropdown-content{
+    display:block;
+    z-index: 1;
+}
+.ongoing-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:gainsboro;
+    padding: 1%;
+    text-align: left;
+    list-style-type: none;
+    margin-top: 10px;
+    width:150px;
+}
+.ongoing-dropdown:hover .ongoing-dropdown-content{
+    display:block;
+    z-index: 1;
+}
+
+/*LINKS*/
+a:link  {
+    color: black;
+    text-decoration: none;
+    }
+a:visited {
+    color:black;
+    text-decoration: none;
+
+    }
+a:hover {
+    color:crimson;
+    text-decoration: underline;
+}
+a:active {
+    color:black;
+    text-decoration: underline;
+}
+
+
+
+/*IMAGE GALLERY*/
+.homepage{text-align: center;}
+.homeimage{
+    width: 850px;
+}
+.image{width:225px;
+    display: inline-block;
+    margin: 5px;
+}
+.image-gallery{
+    text-align: center;
+}    
+.image-gallery:after{
+    content:""; 
+    display: inline-block; 
+    width: 100%; 
+    height: 0;
+    margin: auto;
+}
+
+
+
+
