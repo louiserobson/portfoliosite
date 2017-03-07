@@ -113,10 +113,17 @@ a:active {
 
 
 /*IMAGE GALLERY*/
-.homepage{text-align: justify;}
-.image{width:225px;
+.homepage{
+    text-align: justify;
+}
+.homeimage{
+    border-radius: 5px;
+}
+.image{
+    width:225px;
     display: inline-block;
     margin: 5px;
+    border-radius: 3px;
 }
 .image-gallery{
     text-align: center;
@@ -129,6 +136,22 @@ a:active {
     margin: auto;
 }
 
+/*OVERLAY*/
+
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  background-color:white;
+    border-radius: 3px; 
+}
+
+[class^='imghvr-'] figcaption,
+[class*=' imghvr-'] figcaption {
+ background-color:rgba(221,221,221,0.5); 
+ color:black;
+ text-align: center;
+padding-top: 35%;
+    padding-bottom: 35%;
+}
 
 /*CHANGES FOR SCREENS*/
 @media only screen and (max-width: 500px) {
