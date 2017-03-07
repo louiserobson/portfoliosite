@@ -127,6 +127,8 @@ a:active {
 }
 .image-gallery{
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }    
 .image-gallery:after{
     content:""; 
@@ -136,8 +138,7 @@ a:active {
     margin: auto;
 }
 
-/*OVERLAY*/
-
+/*IMAGE OVERLAY*/
 [class^='imghvr-'],
 [class*=' imghvr-'] {
   background-color:white;
@@ -149,8 +150,18 @@ a:active {
  background-color:rgba(221,221,221,0.5); 
  color:black;
  text-align: center;
-padding-top: 35%;
-    padding-bottom: 35%;
+padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+/*PORTFOLIO PAGES*/
+.portfoliopage{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.portfolioimg{
+    width:100%;
 }
 
 /*CHANGES FOR SCREENS*/
@@ -173,6 +184,7 @@ padding-top: 35%;
     .socialicons{
         text-align: center;
     }
-    .copyright{float:left;}
+    .copyright{float:left;
+    }
+    .nav{display:inherit;}
 }
-
