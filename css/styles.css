@@ -6,8 +6,7 @@ html {
 body {
     margin: 0% 15% 0% 15%;
     background-color: white;
-    font-family: "Courier New","Lucida Console",Arial;
-    /*font-size: 16px;*/
+    font-family: 'Lato', sans-serif;
     color: black;
         }
 header {
@@ -38,7 +37,7 @@ footer {
     margin-left: 10%;
     margin-right: 10%;}
 .statement{
-    text-align: justify;
+    text-align: left;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -53,9 +52,9 @@ h1 {
         }
 .main-title {
     margin-bottom: 0%;
-}
-.subline {
-    margin-top: 0%
+    margin-top:0%;
+    font-family: 'Unica One', cursive;
+    font-size: 50px;
 }
 h2 {
     font-size: 1.3em;
@@ -72,7 +71,7 @@ p {
 nav {
     background-color:white;
     padding: 0%;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
     text-align: center;
 }    
 .topmenu{
@@ -81,7 +80,7 @@ nav {
 }
 /*for the links themselves not the nav bar*/
 .mainnav {
-   padding: 10px 25px;
+   padding:0px 20px ;
    text-align: center; 
    display: inline-block;    
 }
@@ -102,7 +101,7 @@ a:visited {
 
     }
 a:hover {
-    color:crimson;
+    color: darkgrey;
     text-decoration: underline;
 }
 a:active {
@@ -114,7 +113,7 @@ a:active {
 
 /*IMAGE GALLERY*/
 .homepage{
-    text-align: justify;
+    text-align: center;
 }
 .homeimage{
     border-radius: 5px;
@@ -147,7 +146,7 @@ a:active {
 
 [class^='imghvr-'] figcaption,
 [class*=' imghvr-'] figcaption {
- background-color:rgba(221,221,221,0.5); 
+ background-color:rgba(169,169,169,0.5); 
  color:black;
  text-align: center;
 padding-top: 15%;
