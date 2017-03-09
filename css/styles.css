@@ -28,10 +28,9 @@ footer {
     background-color: white;
     padding: 2%;
     margin-bottom: 15px;
+    text-align: center;
 }
-.copyright {
-    float:right;
-}
+
 /*PAGES*/
 .aboutme{
     margin-left: 10%;
@@ -53,7 +52,7 @@ h1 {
 .main-title {
     margin-bottom: 0%;
     margin-top:0%;
-    font-family: 'Unica One', cursive;
+    font-family: 'Work Sans', sans-serif;
     font-size: 50px;
 }
 h2 {
@@ -149,15 +148,14 @@ a:active {
  background-color:rgba(169,169,169,0.5); 
  color:black;
  text-align: center;
-padding-top: 15%;
-    padding-bottom: 15%;
+padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 /*PORTFOLIO PAGES*/
 .portfoliopage{
     margin-left: 10%;
-    margin-right: 10%;
-    
+    margin-right: 10%; 
 }
 .portfolioimg{
     width:100%;
@@ -165,6 +163,7 @@ padding-top: 15%;
 
 /*CHANGES FOR SCREENS*/
 @media only screen and (max-width: 500px) {
+    body{margin:5%;}
     .statement {
         margin-left: 0%;
         margin-right: 0%;
@@ -178,12 +177,11 @@ padding-top: 15%;
     .contactme {
         margin-left: 0%;
         margin-right: 0%;
-        text-align: left;
-    }
-    .socialicons{
         text-align: center;
     }
-    .copyright{float:left;
+    .mainnav{display:block;
     }
-    .nav{display:inherit;}
+    .main-title{font-size: 30px;
+    }
+  
 }
